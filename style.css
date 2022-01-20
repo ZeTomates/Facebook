@@ -1,0 +1,77 @@
+body{
+    background-color: #F0F2F5;
+}
+
+.centrar{ 
+/*Após varias tentativas e pesquisa, só consegui centrar a caixa desta maneira, usando uma div do tamanho da página e o display grid */
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.caixa{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    padding: 20px;
+}
+
+/*DIVS (caixas de texto) */
+
+.conta{
+    width: 364px;
+    height: 60px;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 0, 0, 10%);
+    display: inline-block;
+    margin: 6px;
+    
+}
+
+.tres{
+    background-color: #166FE5;
+}
+
+.quatro{
+    background-color: #36A420;
+    width: 200px;
+    display: block;
+    margin: 15px auto;
+}
+
+/* P's (textos) */
+
+.p{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0, 60%);
+    display: block;
+}
+
+.in{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+.nao{
+    color: #166FE5;
+    text-align: center;
+}
+
+.novo{
+    font-size: 23px;
+}
+
+.dentro{
+    color: black;
+    margin-top: 40px;
+    font-size: 14px;
+}
